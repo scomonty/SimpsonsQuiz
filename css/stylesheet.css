@@ -85,22 +85,19 @@ border: 1px solid white;
 width: 250px;
 border-radius: 4px;
 font-size: 1.25em;
-height: -1%;
 background-color: black;
 margin-bottom: .2em;
 }
 
 .hover, .restart:hover{
-border: tranparent;
+border: transparent;
 color: black;
 background-color: white;
 opacity: 0.8;}
 
 /***************pointers*****************/
 
-.over, .hover{cursor: pointer;}
-
-.answers {cursor: pointer;}
+.over, .hover, .choice{cursor: pointer;}
 
 .next{
 width: 200px;
