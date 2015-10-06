@@ -1,0 +1,158 @@
+
+body {
+	background: #128bda;
+
+	margin: 0 auto;
+	color: #ffd936;
+	font-family: 'Gloria Hallelujah', cursive;
+	/*background-image: url("img/clouds.png");*/
+}
+
+.start, .question, .begin {
+	background: transparent;
+}
+
+.begin, .align {
+	text-align:center;
+	margin:auto;
+}
+	
+.test {
+	border: 1px solid black;
+}
+
+/*fonts*/
+
+header {
+	font-size: 4.375em;
+	text-align: center;
+	margin-bottom: -15px;
+}
+
+.start {
+	font-size: 2.8125em;
+	transition: all 0.5s ease;
+}
+
+#easy {
+	background: url('img/ned.png');
+}
+
+#medium {
+	background: url('img/database.png');
+	margin-right: 20px;
+	margin-left: 20px;	
+}
+#hard {
+	background: url('img/cbg.png');
+}
+#easy, #medium, #hard {
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 256px;
+	padding-top: 375px;
+	border: transparent;
+}
+.start:hover {
+	-webkit-transform: translate(0px, -15px);
+    -moz-transform: translate(0px, -15px);
+    -o-transform: translate(0px, -15px);
+    -ms-transform: translate(0px, -15px);
+    transform: translate(0px, -15px);
+    cursor: pointer;
+}
+
+.question {
+font-size: 1.875em;
+height: 280px;
+max-width: 9em;
+margin-right: auto;
+margin-left: auto;
+color: #ffd936;
+display: block;
+    margin: 0 auto;
+}
+
+.container{text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+.choice {
+font-family: 'Gloria Hallelujah', cursive;
+border: 1px solid white;
+width: 250px;
+border-radius: 4px;
+font-size: 1.25em;
+height: -1%;
+background-color: black;
+margin-bottom: .2em;
+}
+
+.hover, .restart:hover{
+border: tranparent;
+color: black;
+background-color: white;
+opacity: 0.8;}
+
+/***************pointers*****************/
+
+.over, .hover{cursor: pointer;}
+
+.next{
+width: 200px;
+border-radius: 4px;
+background-color: white;
+border: 1px solid black;
+font-size: 1.125em;
+margin-top: 15px;
+color: black;
+}
+
+
+.correct{background-color: #009900;}
+
+.incorrect{background-color: red;}
+
+.complete p{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 3.125em;
+max-width: 85%;
+margin-top: -25px;}
+
+.counter {
+	padding: 10px;
+}
+
+.house {
+	float: right;
+}
+
+.winning_picture {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -75px;
+}
+
+.question_num {
+	margin-top: -75px;
+	font-size: 20px;
+}
+
+.restart {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -45px;
+}
+
+.answers {
+	margin-top: 60px;
+}
+
+
+
