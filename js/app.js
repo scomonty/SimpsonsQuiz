@@ -55,7 +55,7 @@ function Question(Question, a1, a2, a3, a4, correct){
     var fifteen = new Question("<p class='question_num'>Question 15 of 25</p><img class='picture' src='img/easy/15.png'>", "Lisa", "Janie", "Sherri", "Maggie", 4);
     var sixteen = new Question("<p class='question_num'>Question 16 of 25</p><img class='picture' src='img/easy/16.png'>", "Dick Fiddler", "Armen Tamzarian", "Seymour Skinner", "Gary Chalmers", 3);
     var seventeen = new Question("<p class='question_num'>Question 17 of 25</p><img class='picture' src='img/easy/17.png'>", "Kearney Zzyzwicz", "Dolph Starbeam", "Jimbo Jones", "Nelson Muntz", 4);
-    var eighteen = new Question("<p class='question_num'>Question 18 of 25</p><img class='picture' src='img/easy/18.png'>", "Waylon Smithers", "Lenny Leonard", "Moe Sczylack", "Seymour Skinner", 1);
+    var eighteen = new Question("<p class='question_num'>Question 18 of 25</p><img class='picture' src='img/easy/18.png'>", "Waylon Smithers", "Lenny Leonard", "Moe Szyslak", "Seymour Skinner", 1);
     var nineteen = new Question("<p class='question_num'>Question 19 of 25</p><img class='picture' src='img/easy/19.png'>", "Lisa Margaret Simpson", "Lisa J Simpson", "Maggie Simpson", "Lisa Marie Simpson", 4);
     var twenty = new Question("<p class='question_num'>Question 20 of 25</p><img class='picture' src='img/easy/20.png'>", "Noodles The Clown", "Rusty The Clown", "Krusty The Clown", "Hyman Krustofsky", 3);
     var twentyone = new Question("<p class='question_num'>Question 21 of 25</p><img class='picture' src='img/easy/21.png'>", "Scott Christian", "Arnie Pie", "Marty", "Kent Brockman", 4);
