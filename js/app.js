@@ -45,7 +45,7 @@ function Question(Question, a1, a2, a3, a4, correct){
     var five = new Question("<p class='question_num'>Question 5 of 25</p><img class='picture' src='img/easy/5.png'>", "Wendell Borton", "Ralph Wiggum", "Nelson Muntz", "Martin Prince", 2);
     var six = new Question("<p class='question_num'>Question 6 of 25</p><img class='picture' src='img/easy/6.png'>", "Milhouse Van Houten", "Kirk Van Houten", "Norbert Van Houten", "Van Hooten", 1);
     var seven = new Question("<p class='question_num'>Question 7 of 25</p><img class='picture' src='img/easy/7.png'>", "Eugene", "Rusty", "Cletus", "Spudford", 3);
-    var eight = new Question("<p class='question_num'>Question 8 of 25</p><img class='picture' src='img/easy/8.png'>", "Lenny Leonard", "Carl Carlson", "Barney Gumble", "Moe Sczylack", 4);
+    var eight = new Question("<p class='question_num'>Question 8 of 25</p><img class='picture' src='img/easy/8.png'>", "Lenny Leonard", "Carl Carlson", "Barney Gumble", "Moe Szyslak", 4);
     var nine = new Question("<p class='question_num'>Question 9 of 25</p><img class='picture' src='img/easy/9.png'>", "Groundskeeper Sheamus", "Groundskeeper Willie", "Groundskeeper Seymour", "GK Willington", 2);
     var ten = new Question("<p class='question_num'>Question 10 of 25</p><img class='picture' src='img/easy/10.png'>", "Otto Mann", "Otto Martin", "Otto Skinner", "Otto Simpson", 1);
     var eleven = new Question("<p class='question_num'>Question 11 of 25</p><img class='picture' src='img/easy/11.png'>", "Marge Simpson", "Patty Bouvier", "Selma Bouvier", "Lisa Simpson", 1);
@@ -157,11 +157,11 @@ function Question(Question, a1, a2, a3, a4, correct){
       $('.next').text("Finish");
       $('.next').fadeIn(500);
     }
-    else if(qsnList === two) {
+    else if(qsnList === fourtynine) {
       $('.next').text("Finish");
       $('.next').fadeIn(500);
     }
-    else if(qsnList === fifteen) {
+    else if(qsnList === seventythree) {
       $('.next').text("Finish");
       $('.next').fadeIn(500);
     }
